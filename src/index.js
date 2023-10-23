@@ -7,6 +7,9 @@ import App from "./App";
 const root = createRoot(document.getElementById("root"));
 root.render(
   <StrictMode>
+    Trương Samuel - 20127610
+    <br />
+    <br />
     <App />
   </StrictMode>
 );

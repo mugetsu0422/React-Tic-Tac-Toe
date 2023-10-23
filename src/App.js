@@ -114,7 +114,7 @@ export default function Game() {
   let allMoves = movesHistory.map((val, idx) => {
     return (
       <li key={idx}>
-        ({Math.floor(val / BOARD_SIZE)}, {val % BOARD_SIZE})
+        {(idx % 2 === 0 ? 'X' : 'O')}: ({Math.floor(val / BOARD_SIZE)}, {val % BOARD_SIZE})
       </li>
     )
   })
